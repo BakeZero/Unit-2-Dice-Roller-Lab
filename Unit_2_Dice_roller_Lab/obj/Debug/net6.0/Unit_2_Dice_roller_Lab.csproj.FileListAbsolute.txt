@@ -1,0 +1,15 @@
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.csproj.AssemblyReference.cache
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.AssemblyInfo.cs
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.csproj.CoreCompileInputs.cache
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\bin\Debug\net6.0\Unit_2_Dice_roller_Lab.exe
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\bin\Debug\net6.0\Unit_2_Dice_roller_Lab.deps.json
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\bin\Debug\net6.0\Unit_2_Dice_roller_Lab.runtimeconfig.json
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\bin\Debug\net6.0\Unit_2_Dice_roller_Lab.dll
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\bin\Debug\net6.0\Unit_2_Dice_roller_Lab.pdb
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.dll
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\refint\Unit_2_Dice_roller_Lab.dll
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.pdb
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\Unit_2_Dice_roller_Lab.genruntimeconfig.cache
+C:\Users\harry\Desktop\Grand Circus\Unit_2_Dice_roller_Lab\Unit_2_Dice_roller_Lab\obj\Debug\net6.0\ref\Unit_2_Dice_roller_Lab.dll

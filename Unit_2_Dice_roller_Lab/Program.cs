@@ -4,11 +4,11 @@ class Program
 {
     static void Main()
     {
-        string prompt = "y";
         int roll = 1;
         Console.WriteLine("Welcome to the Grand Circus Casino!");
-        Console.Write("How many sides should each die have? (Only 6-sided is supported): ");
-        int sides = int.Parse(Console.ReadLine());
+        Console.WriteLine("How many sides should each die have? (2-144)");
+        int sides = 0;
+        Validator.GetNumber(ref sides);
 
         do
         {
@@ -22,12 +22,20 @@ class Program
                 Console.WriteLine($"{SixSidedFaces(die1, die2)}");
                 SixSidedTotals(die1 + die2);
             }
-
-            Console.Write("Roll again? (y/n): ");
-            prompt = Console.ReadLine();
-            Console.WriteLine();
-        } while (prompt == "y");
+        } while (Continue());
         Console.WriteLine("Thanks for playing!");
+    }
+
+    static bool Continue()
+    {
+        Console.Write("Continue? (y/n): ");
+        string prompt = Console.ReadLine();
+        if (prompt.ToLower() == "y")
+            return true;
+        else if (prompt.ToLower() == "n")
+            return false;
+        else
+            return Continue();
     }
 
     static int GenerateRandom( int sides)
@@ -54,5 +62,35 @@ class Program
             Console.WriteLine("Win");
         else if (total == 2 || total == 3 || total == 12)
             Console.WriteLine("Craps!");
+    }
+}
+
+
+public static class Validator
+{
+    /* Method to accept only a valid input */
+    public static void GetNumber(ref int rad)
+    {
+        try
+        {
+            Console.Write("Enter a number: ");
+            rad = int.Parse(Console.ReadLine());
+        }
+        catch (FormatException e)
+        {
+            Console.WriteLine("Invalid input.");
+            GetNumber(ref rad);
+        }
+        if (rad < 2)
+        {
+            Console.WriteLine("Too few sides!");
+            GetNumber(ref rad);
+        }
+        else if (rad > 144)
+        {
+            Console.WriteLine("Too many sides... That's just a ball!");
+            GetNumber(ref rad);
+        }
+        return;
     }
 }

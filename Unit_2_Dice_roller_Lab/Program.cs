@@ -81,16 +81,23 @@ public static class Validator
             Console.WriteLine("Invalid input.");
             GetNumber(ref rad);
         }
+        if (!BoundChecker(rad))
+            GetNumber(ref rad);
+        return;
+    }
+
+    private static bool BoundChecker(int rad)
+    {
         if (rad < 2)
         {
             Console.WriteLine("Too few sides!");
-            GetNumber(ref rad);
+            return false;
         }
         else if (rad > 144)
         {
             Console.WriteLine("Too many sides... That's just a ball!");
-            GetNumber(ref rad);
+            return false;
         }
-        return;
+        return true;
     }
 }
